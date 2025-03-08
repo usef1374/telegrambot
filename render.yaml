@@ -1,0 +1,15 @@
+# توضیح: تنظیمات برای میزبانی در Render
+services:
+  - type: web
+    name: ton-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: "7864606782:AAEj5EH679g95P0sK0ZI1xHZjDWil_6wGkI"
+      - key: MONGO_URI
+        value: "mongodb+srv://usef7400:josepH139900@@cluster0.ayjig.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      - key: PYTHON_VERSION
+        value: "3.9.0"
