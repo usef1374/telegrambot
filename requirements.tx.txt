@@ -1,4 +1,0 @@
-# توضیح: پیش‌نیازهای پروژه
-python-telegram-bot==13.15
-pymongo
-dnspython
